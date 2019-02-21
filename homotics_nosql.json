@@ -1,0 +1,65 @@
+{
+  "Home": {
+    "User": {
+      "ID_User": 1,
+      "FirstName": "Mohamed Redha",
+      "LastName": "ABBASSEN",
+      "Age": 23,
+      "DateOfBirth": "10/02/2019",
+      "Phone_Number": "0752532356",
+      "Address": "Saint-Etienne",
+      "Vile": "Saint-Etienne",
+      "Region": "France",
+      "Account_User": {
+        "ID_Account": 1,
+        "UserName": "RaspRedha",
+        "Password": "raspberryRedha",
+        "Email": "mail@mail.com",
+        "Type": "Admin",
+        "Token": "ze6f5zzefze4fz57z6e8f4z6e8f4ze6f84ze68f4z1ef68zef6zef",
+        "TokenIssueDate": "10/02/2019",
+        "Enabled": "Yes",
+        "FirstAccess": "10/02/2019",
+        "LastAccess": "10/02/2019",
+        "Raspberry": {
+          "ID_Rasp": 1,
+          "IP_Address": "192.168.0.101",
+          "Password": "raspberry",
+          "Room": {
+            "ID_Room": 1,
+            "Num_floor": 2,
+            "Object": {
+              "Action": {
+                "Action_History": {
+                  "Action_Time": "20:00:00",
+                  "Date_Action": "10/02/2019",
+                  "ID_History": 1
+                },
+                "Description": "Turning the motor on",
+                "ID_Action": 1,
+                "Instruction": "click on the turn on button",
+                "Name_Action": "Turnning ON"
+              },
+              "ID_Object": 1,
+              "Name": "Motor",
+              "Reference": "dc_motor",
+              "Size": 7,
+              "State": "On",
+              "State_History": {
+                "ID_Object": 1,
+                "State": "On",
+                "State_date": "10/02/2019"
+              },
+              "Type_object": "Actuator",
+              "Weight": "1g"
+            },
+            "Room_name": "salon",
+            "Type_room": "salon"
+          },
+          "UserName": "pi",
+          "type_controller": "global_local"
+        }
+      }
+    }
+  }
+}
